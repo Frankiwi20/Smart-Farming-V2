@@ -7,7 +7,7 @@ def main():
     app = QApplication(sys.argv)
 
     # Fetch the API key securely, this is a placeholder for wherever you might securely store or retrieve it.
-    api_key = 'caf6429d5d94023d5089fb656817efad'  # Consider fetching this from an environment variable or a secure store for production
+    api_key = ''  # add your api key here 
 
     try:
         # Initialize the API Manager with your secure API key
